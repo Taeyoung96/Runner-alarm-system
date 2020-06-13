@@ -1,0 +1,27 @@
+Yolo mark 실행법
+
+출처 : https://pgmrlsh.tistory.com/6
+
+
+1. 터미널 창에 
+git clone https://github.com/AlexeyAB/Yolo_mark
+를 입력하세요.
+
+2.  터미널 창에 
+cmake .
+make
+chmod a+x linux_mark.sh
+./linux_mark.sh
+를 순서대로 입력하세요. 다 입력했다면 프로그램 창이 하나 뜹니다.
+
+3. 이제 학습 시킬 사진을 넣어줄 껀데요.
+yolo_mark/x64/Release/data/img
+여기 경로 안에 이미지를 넣으면 그 이미지로 학습을 시킬 수 있습니다.
+
+4. 터미널에서 
+gedit obj.data
+를 입력하면 메모장 같은 것이 하나 뜰겁니다.
+classes = 2로 되어있는지 확인해주세요. (walk, run만 인식 할 것이기 때문입니다.)
+
+
+https://jybaek.tistory.com/800  ffmpeg install
